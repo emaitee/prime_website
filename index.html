@@ -43,8 +43,35 @@
                                     <a class="d-flex justify-content-center align-items-center" href="#"><img src="images/emergency-call.png"> ( +234 ) 08099430555</a>
                                 </li>
                                  <li class="">
-                                        <a data-toggle="modal" data-target="#cardioology" href="#">Login</a>
-                                    </li>
+                                    <a data-toggle="modal" data-target="#login" href="#">Login</a>
+                                </li>
+
+                                <!-- Login Modal-->
+                                <div id="login" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade bd-example-modal-lg">
+                                    <div role="document" class="modal-dialog modal-dialog-centered modal-lg">
+                                      <div class="modal-content">
+                                        <div class="modal-header border-bottom-0">
+                                          <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                                        </div>
+                                        <div class="modal-body p-4 p-lg-5">
+                                            <form action="#" class="login-form text-left">
+                                                <div class="form-group mb-4">
+                                                    <label>Email address</label>
+                                                    <input type="email" name="email" placeholder="name@company.com" class="form-control">
+                                                </div>
+                                                <div class="form-group mb-4">
+                                                    <label>Password</label>
+                                                    <input type="password" name="password" placeholder="Min 8 characters" class="form-control">
+                                                </div>
+                                                <div class="form-group offset-xs-5 offset-sm-5 offset-md-5 offset-lg-5">
+                                                    <input type="submit" value="Login" class="btn btn-primary">
+                                                    <button type="button" data-dismiss="modal" id="close" class="btn btn-danger">close</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
                                 
                             </div>
                             <div id="cardioology" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade bd-example-modal-lg">
@@ -380,7 +407,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>Pacient’s Testimonials</h2>
+                    <h2>More About PSC</h2>
                 </div>
             </div>
         </div>
@@ -394,58 +421,51 @@
                             <div class="swiper-container testimonial-slider-wrap">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <div class="entry-content">
+                                        <!-- <div class="entry-content">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Curabitur ut augue finibus, luctus tortor at, ornare erat. Nulla facilisi. Sed est risus, laoreet et quam non, viverra accumsan leo.</p>
-                                        </div><!-- .entry-content -->
+                                        </div> -->
+                                        <div class="entry-content">
+                                            <img src="images/team-4.jpg"  alt="">
+                                        </div>
+                                        <!-- .entry-content -->
 
                                         <div class="entry-footer">
-                                            <figure class="user-avatar">
+                                            <p>Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.</p>
+                                            <!-- <figure class="user-avatar">
                                                 <img src="images/user-1.jpg" alt="">
-                                            </figure><!-- .user-avatar -->
+                                            </figure><!-s- .user-avatar -s->
 
-                                            <h3 class="testimonial-user">Russell Stephens <span>University in UK</span></h3>
+                                            <h3 class="testimonial-user">Russell Stephens <span>University in UK</span></h3> -->
                                         </div><!-- .entry-footer -->
                                     </div><!-- .swiper-slide -->
 
                                     <div class="swiper-slide">
                                         <div class="entry-content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Curabitur ut augue finibus, luctus tortor at, ornare erat. Nulla facilisi. Sed est risus, laoreet et quam non, viverra accumsan leo.</p>
+                                            <img src="images/team-3.jpg"  alt="">
                                         </div><!-- .entry-content -->
 
                                         <div class="entry-footer">
-                                            <figure class="user-avatar">
-                                                <img src="images/user-2.jpg" alt="">
-                                            </figure><!-- .user-avatar -->
-
-                                            <h3 class="testimonial-user">Russell Stephens <span>University in UK</span></h3>
+                                            <p>Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.</p>
                                         </div><!-- .entry-footer -->
                                     </div><!-- .swiper-slide -->
 
                                     <div class="swiper-slide">
                                         <div class="entry-content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Curabitur ut augue finibus, luctus tortor at, ornare erat. Nulla facilisi. Sed est risus, laoreet et quam non, viverra accumsan leo.</p>
+                                            <img src="images/team-2.jpg"  alt="">
                                         </div><!-- .entry-content -->
 
                                         <div class="entry-footer">
-                                            <figure class="user-avatar">
-                                                <img src="images/user-3.jpg" alt="">
-                                            </figure><!-- .user-avatar -->
-
-                                            <h3 class="testimonial-user">Russell Stephens <span>University in UK</span></h3>
+                                            <p>Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.</p>
                                         </div><!-- .entry-footer -->
                                     </div><!-- .swiper-slide -->
 
                                     <div class="swiper-slide">
                                         <div class="entry-content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Curabitur ut augue finibus, luctus tortor at, ornare erat. Nulla facilisi. Sed est risus, laoreet et quam non, viverra accumsan leo.</p>
+                                            <img src="images/team-1.jpg"  alt="">
                                         </div><!-- .entry-content -->
 
                                         <div class="entry-footer">
-                                            <figure class="user-avatar">
-                                                <img src="images/user-4.jpg" alt="">
-                                            </figure><!-- .user-avatar -->
-
-                                            <h3 class="testimonial-user">Russell Stephens <span>University in UK</span></h3>
+                                            <p>Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.</p>
                                         </div><!-- .entry-footer -->
                                     </div><!-- .swiper-slide -->
                                 </div><!-- .swiper-wrapper -->
