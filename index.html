@@ -33,30 +33,58 @@
 
                         
                         <nav class="site-navigation d-flex justify-content-end align-items-center">
-                            <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
-                                <li><a href="index.html">Home</a></li>
-                                <li class="current-menu-item"><a href="about.html">About PSC</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="news.html">News</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
+                                    <li class="current-menu-item"><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About PSC</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="news.html">News</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+    
+                                    <li class="call-btn button gradient-bg mt-3 mt-md-0">
+                                        <a class="d-flex justify-content-center align-items-center" href="#"><img src="images/emergency-call.png">(+234) 08099430555</a>
+                                    </li>
+                                        <li><a data-toggle="modal" data-target="#login"  href="#">Login</a></li>
 
-                                <li class="call-btn button gradient-bg mt-3 mt-md-0">
-                                    <a class="d-flex justify-content-center align-items-center" href="#"><img src="images/emergency-call.png">(+234) 08099430555</a>
-                                </li>
-                               
-                            </ul>
-                        </nav><!-- .site-navigation -->
+                                </ul>
+                            </nav><!-- .site-navigation -->
+    
+                            <div class="hamburger-menu d-lg-none">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div><!-- .hamburger-menu -->
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                </div><!-- .container -->
+            </div><!-- .nav-bar -->
 
-                        <div class="hamburger-menu d-lg-none">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div><!-- .hamburger-menu -->
-                    </div><!-- .col -->
-                </div><!-- .row -->
-            </div><!-- .container -->
-        </div><!-- .nav-bar -->
+        <!-- Login Modal-->
+        <div id="login" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade bd-example-modal-lg">
+                <div role="document" class="modal-dialog modal-dialog-centered modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header border-bottom-0">
+                      <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                    </div>
+                    <div class="modal-body p-4 p-lg-5">
+                        <form action="#" class="login-form text-left">
+                            <div class="form-group mb-4">
+                                <label>Email address</label>
+                                <input type="email" name="email" placeholder="name@company.com" class="form-control">
+                            </div>
+                            <div class="form-group mb-4">
+                                <label>Password</label>
+                                <input type="password" name="password" placeholder="Min 8 characters" class="form-control">
+                            </div>
+                            <div class="form-group offset-xs-5 offset-sm-5 offset-md-5 offset-lg-5">
+                                <input type="submit" value="Login" class="btn btn-primary">
+                                <button type="button" data-dismiss="modal" id="close" class="btn btn-danger">close</button>
+                            </div>
+                        </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
        
         <div class="swiper-container hero-slider">
