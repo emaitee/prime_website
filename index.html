@@ -11,12 +11,14 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link href="images/psc_logo.png" rel="icon">
+    <link href="images/psc_logo.png" rel="shortcut icon">
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="css/swiper.min.css">
 
     <!-- Styles -->
     <link rel="stylesheet" href="style.css">
+    <!-- <script src="js/react.js"></script> -->
     <script src="js/custom.js"></script>
 </head>
 <body>
@@ -26,7 +28,7 @@
                 <div class="row">
                     <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
                         <div class="site-branding d-flex align-items-center">
-                           <a class="d-block" href="index.html" rel="home"><img class="d-block" src="images/logo.png" alt="logo"></a>
+                           <a class="d-block" href="index.html" rel="home"><img class="d-block" src="images/psc_logo.png" alt="logo"></a>
                         </div><!-- .site-branding -->
 
                         <nav class="site-navigation d-flex justify-content-end align-items-center">
@@ -129,63 +131,41 @@
         </div><!-- .hero-slider -->
     </header><!-- .site-header -->
 
-    <div class="homepage-boxes">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="opening-hours">
-                        <h2 class="d-flex align-items-center">Opening Hours</h2>
+    <!-- <a href="#" data-toggle="modal" data-target="#login" class="btn btn-primary navbar-btn ml-0 ml-lg-3">Request for Demo </a> -->
 
-                        <ul class="p-0 m-0">
-                            <li>Monday - Thursday <span>8.00 - 19.00</span></li>
-                            <li>Friday <span>8.00 - 18.30</span></li>
-                            <li>Saturday <span>9.30 - 17.00</span></li>
-                            <li>Sunday <span>9.30 - 15.00</span></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
-                    <div class="emergency-box">
-                        <h2 class="d-flex align-items-center">Emergency</h2>
-
-                        <div class="call-btn button gradient-bg">
-                            <a class="d-flex justify-content-center align-items-center" href="#"><img src="images/emergency-call.png">  (+234 ) 08099430555</a>
-                        </div>
-
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Donec males uada lorem maximus mauris sceler isque, at rutrum nulla.</p>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-5 mt-5 mt-lg-0">
-                    <div class="appointment-box">
-                        <h2 class="d-flex align-items-center">Make an Appointment</h2>
-
-                        <form class="d-flex flex-wrap justify-content-between">
-                            <select class="select-department">
-                                <option value="value1">Select Department</option>
-                                <option value="value2">Select Department 1</option>
-                                <option value="value3">Select Department 2</option>
-                            </select>
-
-                            <select class="select-doctor">
-                                <option>Select Doctor</option>
-                                <option>Select Doctor 1</option>
-                                <option>Select Doctor 2</option>
-                            </select>
-
-                            <input type="text" placeholder="Name">
-
-                            <input type="number" placeholder="Phone No">
-
-                            <input class="button gradient-bg" type="submit" value="Boom Appoitnment">
-                        </form>
-                    </div>
-
-                </div>
+    <!-- Login Modal-->
+    <!-- <div id="login" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade bd-example-modal-lg">
+        <div role="document" class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+                <header class="section-header">
+                    <h2 class="mb-2">Fill out the form</h2>
+                  </header>
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
             </div>
+            <div class="modal-body p-4 p-lg-5">
+                <p class="lead">Please submit your information and we will follow up with you as soon as possible.</p>
+                <form action="#" class="contact-form text-left">
+                    <div class="form-group mb-4">
+                      <label>Name<sup class="text-primary">&#10033;</sup></label>
+                      <input type="text" name="name" placeholder="e.g. John Smith" class="form-control">
+                    </div>
+                    <div class="form-group mb-4">
+                      <label>Company Email<sup class="text-primary">&#10033;</sup></label>
+                      <input type="text" name="email" placeholder="name@hospital.com" class="form-control">
+                    </div>
+                    <div class="form-group mb-4">
+                      <label>Address<sup class="text-primary">&#10033;</sup></label>
+                      <input type="text" name="subject" placeholder="e.g. 45B Lamido Crescent, Nassarawa G.R.A, Kano" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" value="Submit" class="btn btn-primary">
+                    </div>
+                  </form>
+            </div>
+          </div>
         </div>
-    </div>
+      </div> -->
 
     <div class="our-departments">
         <div class="container">
@@ -208,11 +188,24 @@
                                     </div>
 
                                     <footer class="entry-footer">
-                                        <a href="#">read more</a>
+                                        <a data-toggle="modal" data-target="#cardioology" href="#">read more</a>
                                     </footer>
                                 </div>
                             </div>
-
+                            <div id="cardioology" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade bd-example-modal-lg">
+                                <div role="document" class="modal-dialog modal-dialog-centered modal-lg">
+                                  <div class="modal-content">
+                                    <div class="modal-header border-bottom-0">
+                                      <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                                    </div>
+                                    <div class="modal-body p-4 p-lg-5">
+                                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus.</p>
+                                       <p>Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris.</p>
+                                       <p>Lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris. <p>Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="our-departments-cont">
                                     <header class="entry-header d-flex flex-wrap align-items-center">
@@ -454,6 +447,10 @@
         </div><!-- .testimonial-slider -->
     </section><!-- .testimonial-section -->
 
+    <div id="react-code-container">
+        
+    </div>
+
     <div class="the-news">
         <div class="container">
             <div class="row">
@@ -538,7 +535,39 @@
         </div>
     </div>
 
-    <div class="subscribe-banner">
+    <div class="homepage-boxes">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-5 mt-5 mt-lg-0">
+                    <div class="appointment-box">
+                        <h2 class="d-flex align-items-center">Make an Appointment</h2>
+
+                        <form class="d-flex flex-wrap justify-content-between">
+                            <select class="select-department">
+                                <option value="value1">Select Department</option>
+                                <option value="value2">Select Department 1</option>
+                                <option value="value3">Select Department 2</option>
+                            </select>
+
+                            <select class="select-doctor">
+                                <option>Select Doctor</option>
+                                <option>Select Doctor 1</option>
+                                <option>Select Doctor 2</option>
+                            </select>
+
+                            <input type="text" placeholder="Name">
+
+                            <input type="number" placeholder="Phone No">
+
+                            <input class="button gradient-bg" type="submit" value="Book Appoitnment">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="subscribe-banner">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-8 offset-lg-2">
@@ -551,7 +580,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <footer class="site-footer">
         <div class="footer-widgets">
@@ -559,7 +588,7 @@
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="foot-about">
-                            <h2><a href="#"><img src="images/logo.png" alt=""></a></h2>
+                            <h2><a href="#"><img src="images/psc_logo.png" alt=""></a></h2>
 
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.</p>
 
@@ -587,8 +616,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
                             <ul class="p-0 m-0">
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About PSC</a></li>
-                                <li><a href="#">Departments</a></li>
+                                <li><a href="about.html">About PSC</a></li                                <li><a href="#">Departments</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                                 <li><a href="news.html">FAQ</a></li>
                                 <li><a href="services.html">Testimonials</a></li>
@@ -599,8 +627,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div><!-- .container -->
         </div><!-- .footer-widgets -->
     </footer><!-- .site-footer -->
+<!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
 
+  <!-- Load our React component. -->
+  <script src="js/react.js"></script>
     <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/bootstrap.bundle.min.js'></script>
     <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
     <script type='text/javascript' src='js/swiper.min.js'></script>
     <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
