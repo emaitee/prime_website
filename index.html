@@ -131,6 +131,42 @@
         </div><!-- .hero-slider -->
     </header><!-- .site-header -->
 
+    <!-- <a href="#" data-toggle="modal" data-target="#login" class="btn btn-primary navbar-btn ml-0 ml-lg-3">Request for Demo </a> -->
+
+    <!-- Login Modal-->
+    <!-- <div id="login" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade bd-example-modal-lg">
+        <div role="document" class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+                <header class="section-header">
+                    <h2 class="mb-2">Fill out the form</h2>
+                  </header>
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body p-4 p-lg-5">
+                <p class="lead">Please submit your information and we will follow up with you as soon as possible.</p>
+                <form action="#" class="contact-form text-left">
+                    <div class="form-group mb-4">
+                      <label>Name<sup class="text-primary">&#10033;</sup></label>
+                      <input type="text" name="name" placeholder="e.g. John Smith" class="form-control">
+                    </div>
+                    <div class="form-group mb-4">
+                      <label>Company Email<sup class="text-primary">&#10033;</sup></label>
+                      <input type="text" name="email" placeholder="name@hospital.com" class="form-control">
+                    </div>
+                    <div class="form-group mb-4">
+                      <label>Address<sup class="text-primary">&#10033;</sup></label>
+                      <input type="text" name="subject" placeholder="e.g. 45B Lamido Crescent, Nassarawa G.R.A, Kano" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" value="Submit" class="btn btn-primary">
+                    </div>
+                  </form>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
     <div class="our-departments">
         <div class="container">
             <div class="row">
@@ -152,11 +188,22 @@
                                     </div>
 
                                     <footer class="entry-footer">
-                                        <a href="#">read more</a>
+                                        <a data-toggle="modal" data-target="#cardioology" href="#">read more</a>
                                     </footer>
                                 </div>
                             </div>
-
+                            <div id="cardioology" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade bd-example-modal-lg">
+                                <div role="document" class="modal-dialog modal-dialog-centered modal-lg">
+                                  <div class="modal-content">
+                                    <div class="modal-header border-bottom-0">
+                                      <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                                    </div>
+                                    <div class="modal-body p-4 p-lg-5">
+                                        <p>Read more</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="our-departments-cont">
                                     <header class="entry-header d-flex flex-wrap align-items-center">
@@ -586,6 +633,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   <!-- Load our React component. -->
   <script src="js/react.js"></script>
     <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/bootstrap.bundle.min.js'></script>
     <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
     <script type='text/javascript' src='js/swiper.min.js'></script>
     <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
