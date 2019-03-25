@@ -5,6 +5,17 @@
         display: none!important;
     }
 }
+
+@media screen and (min-width: 600px) {
+    #cardioology {
+        padding: 0!important;
+    }
+}
+
+#cardioology {
+    padding: 10% 10% 50% 10%;
+}
+
 body {
     color: #404040;
     font-size: 16px;
