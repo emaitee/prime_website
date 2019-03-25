@@ -294,7 +294,7 @@ a:hover, a:active {
 }
 
 .hero-slider .pagination-wrap {
-    top: 50%;
+    /* top: 50%; */
     left: 0;
     z-index: 99;
     width: 120px;
