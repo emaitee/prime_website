@@ -213,7 +213,7 @@ a:hover, a:active {
 
 @media screen and (min-width: 992px) {
     .site-navigation ul {
-        position: relative;
+        /* position: relative;
         top: auto;
         left: auto;
         width: 100%;
@@ -221,7 +221,18 @@ a:hover, a:active {
         height: auto;
         padding: 0;
         overflow: auto;
-        background: transparent;
+        background: #F3FBFE; */
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 130%;
+        max-width: 130%;
+        height: auto;
+        padding: 0;
+        overflow: auto;
+        background: #F3FBFE;
+        margin-right: -120px;
+        padding-right: 120px;
     }
 
     .site-navigation ul li a {
