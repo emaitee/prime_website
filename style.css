@@ -205,20 +205,23 @@ a:hover, a:active {
 # Login Button
 -------------------------------*/
 
+
 .login-btn {
-    min-width: 210px;
-    padding: 8px 12px 6px !important;
-    margin-left: 20px;
-    margin-right: 0 !important;
+    
+    margin-left: 24px;
+    
+     margin-right: 0 !important;
+
 }
 
 .login-btn a {
     padding: 0 !important;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     color: #fff !important;
-    text-align: center;
+
 }
+
 
 
 
@@ -294,7 +297,7 @@ a:hover, a:active {
 }
 
 .hero-slider .pagination-wrap {
-    top: 50%;
+    /* top: 50%; */
     left: 0;
     z-index: 99;
     width: 120px;
@@ -907,6 +910,10 @@ ul.tabs-nav .tab-nav.active {
     background: url("images/testimonial-bg.jpg") no-repeat right center;
     background-size: cover;
 }
+.testimonial-footer {
+    align-items: "center";
+    margin-left: 70px;
+}
 
 .testimonial-slider {
     position: relative;
@@ -916,7 +923,8 @@ ul.tabs-nav .tab-nav.active {
     position: relative;
     padding: 72px 100px;
     border-radius: 20px;
-    background: #fff;
+    /*background: url("images/faq-bg.jpg") no-repeat;*/
+    background: #1A2D4D;
     box-shadow: 40px 20px 27px rgba(0,0,0,.1);
 }
 
@@ -1008,7 +1016,7 @@ ul.tabs-nav .tab-nav.active {
     }
 }
 
-.testimonial-slider .swiper-pagination-bullet {
+/*.testimonial-slider .swiper-pagination-bullet {
     width: 52px;
     height: 52px;
     margin: 0 8px;
@@ -1033,7 +1041,7 @@ ul.tabs-nav .tab-nav.active {
 
 .testimonial-slider .swiper-pagination-bullet-active {
     display: none;
-}
+}*/
 
 /*
 # News
