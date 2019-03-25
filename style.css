@@ -5,6 +5,17 @@
         display: none!important;
     }
 }
+
+@media screen and (min-width: 600px) {
+    #cardioology {
+        padding: 0!important;
+    }
+}
+
+#cardioology {
+    padding: 10% 10% 50% 10%;
+}
+
 body {
     color: #404040;
     font-size: 16px;
@@ -286,7 +297,7 @@ a:hover, a:active {
 }
 
 .hero-slider .pagination-wrap {
-    top: 50%;
+    /* top: 50%; */
     left: 0;
     z-index: 99;
     width: 120px;
