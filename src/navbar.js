@@ -8,7 +8,7 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <nav className="site-navigation d-flex justify-content-end align-items-center">
+    //   <nav className="site-navigation d-flex justify-content-end align-items-center">
         <ul className="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
           <li className="current-menu-item">
             <a href="index.html">Home</a>
@@ -41,7 +41,7 @@ class NavBar extends React.Component {
             </a>
           </li>
         </ul>
-      </nav>
+    //   </nav>
     );
   }
 }
